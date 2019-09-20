@@ -2,16 +2,83 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<title>Adminstración de Proyectos de TI - 7°A ITIC</title>
 </head>
 <body>
  
- 
+<!-- menu y canvas -->
+
+<span>
+ 	<a href="#offcanvas-usage" uk-toggle><span class="hamb" uk-icon="icon: menu; ratio:2"></span></a>
+ 	Administracion de Proyectos de TI
+ </span>
+
+
+<div id="offcanvas-usage" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+		
+        
+        <p class="parleft">
+        	Administración de Proyectos
+		Septiembre - Diciembre 2019
+		<ul class="parleft">
+        	<span class="uk-label uk-label-success">Equipo 1</span>
+        	<span class="uk-label uk-label-success">Equipo 1</span>
+        	<span class="uk-label uk-label-success">Equipo 1</span>
+			<span class="uk-label uk-label-success">Equipo 1</span>
+			<span class="uk-label uk-label-success">Equipo 1</span>
+			<span class="uk-label uk-label-success">Equipo 1</span>
+        </ul>
+        <p class="parleft">Ingenieria en Tecnologías</p>
+        </p>
+        
+
+        
+        <!-- <a href="#modal-full" uk-toggle>Open</a> -->
+					
+    </div>
+</div>
+<div class="uk-container uk-container-expand">
+	<div class="uk-column-1-2 uk-column-divider">
+    <p>
+    	<strong>Objetivos</strong><br>
+    El alumno establecerá los parámetros de ejecución y control del proyecto de TI, para su administración en un entorno de calidad.
+</p>
+
+    <p>
+	    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2019-12-01T19:35:18+00:00">
+	    <div>
+	        <div class="uk-countdown-number uk-countdown-days"></div>
+	        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Dias</div>
+	    </div>
+	    <div class="uk-countdown-separator">:</div>
+	    <div>
+	        <div class="uk-countdown-number uk-countdown-hours"></div>
+	        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Horas</div>
+	    </div>
+	    <div class="uk-countdown-separator">:</div>
+	    <div>
+	        <div class="uk-countdown-number uk-countdown-minutes"></div>
+	        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutos</div>
+	    </div>
+	    <div class="uk-countdown-separator">:</div>
+	    <div>
+	        <div class="uk-countdown-number uk-countdown-seconds"></div>
+	        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Segundos</div>
+	    </div>
+		</div>
+	</p>
+  </div>
+ </div>
+ <hr class="uk-divider-icon">
 </body>
 <!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
-
+<link rel="stylesheet" href="styles/uikit.min.css" />
+<link rel="stylesheet" href="styles/mystyle.css" />
 <!-- UIkit JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
+<script src="scripts/uikit.min.js"></script>
+<script src="scripts/uikit-icons.min.js"></script>
 </html>
